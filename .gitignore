@@ -1,0 +1,60 @@
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.ipr
+*.iws
+
+# Build output
+/build/
+/*/build/
+!**/src/**/build/
+
+# Kotlin/Jetpack Compose
+*.kotlin_module
+*.log
+
+# Jetpack Compose Compiler metrics (optional, comment out if you want to keep them)
+compose-metrics/
+compose-compiler/
+
+# Caches
+.cxx/
+*.apk
+*.ap_
+*.dex
+
+# IntelliJ
+out/
+
+# Signing files
+*.jks
+*.keystore
+
+# Crashlytics
+fabric.properties
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Generated files
+/captures/
+/navigation.json
+
+# NDK
+.externalNativeBuild
+
+# Unit test coverage
+*.ec
+
+# Virtual Devices
+*.avd
+*.ini
+
+# Misc
+*.orig
